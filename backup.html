@@ -27,50 +27,62 @@
   
   <!--header-->
       <nav class="nav-top navbar navbar-dark darkbg">
-      
       <form class="form-inline">
-        <a class="nav-bar-icon" href="javascript:void(0)">
+        <a class="nav-bar-icon" href="#">
         <i class="blancolor" data-feather="tv"></i>
-        </a>        
+        </a>             
         <div class="dropdown">
         <a class="nav-bar-icon" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
         <i class="blancolor" data-feather="filter"></i>
-        </a>        
-        <div class="dropdown-menu bg-dark text-white" aria-labelledby="dropdownMenuButton">           
+        </a>
+        <div class="dropdown-menu bg-dark text-white" aria-labelledby="dropdownMenuButton">
             <div class="row">
               <div class="col-12">
                 <div class="list-group bg-dark text-white" id="list-tab" role="tablist">
                   <a class="list-group-item list-group-item-action bg-dark text-white active" id="list-todo-list" data-toggle="list" href="#list-todo" role="tab" aria-controls="todo">
-                  Canales
-                  </a>
+                  Todo
+                  </a>                  
                   <a class="list-group-item list-group-item-action bg-dark text-white" id="list-pais-list" data-toggle="list" href="#list-pais" role="tab" aria-controls="pais">
                   País
-                  </a>
+                  </a>                  
                   <a class="list-group-item list-group-item-action bg-dark text-white" id="list-categoria-list" data-toggle="list" href="#list-categoria" role="tab" aria-controls="categoria">
                   Categoría
+                  </a>                  
+                  <a class="list-group-item list-group-item-action bg-dark text-white" id="list-settings-list" data-toggle="list" href="#list-settings" role="tab" aria-controls="settings">
+                  Settings
                   </a>
                 </div>
               </div>
+              
             </div>
         </div>
-        </div>
-        <!-- SEARCH ICON --  
+        </div>            
         <a class="nav-bar-icon" href="#">
         <i class="blancolor" data-feather="search"></i>
         </a>
-        <!-- SEARCH ICON -->
       </form>
-      
       <a class="navbar-brand mx-auto" href="#">
-        <img src="https://i.ibb.co/kqmptsD/iRTVW.png" alt="" />
+        <i style="margin-top: -8%;" class="blancolor" data-feather="tv"></i>
+        <span style="margin-top: -8%;">|</span>
+        iRaffle TV
       </a>
-      <!--/HIDE-RIGHT-->
+      <!--/HIDE-RIGHT--
       <form class="form-inline">
         <a class="nav-bar-icon" href="#">
-        <i class="blancolor" data-feather="twitter"></i>
+        <i class="blancolor" data-feather="tv"></i>
         </a>
+        <div class="dropdown">
+        <a class="nav-bar-icon" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        <i class="blancolor" data-feather="filter"></i>
+        </a>
+        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+        <a class="dropdown-item" href="#">Action</a>
+        <a class="dropdown-item" href="#">Another action</a>
+        <a class="dropdown-item" href="#">Something else here</a>
+        </div>
+        </div>
         <a class="nav-bar-icon" href="#">
-        <i class="blancolor" data-feather="users"></i>
+        <i class="blancolor" data-feather="search"></i>
         </a>
       </form>
       <!--/HIDE-RIGHT-->
@@ -380,8 +392,8 @@
   </div>
    <!--/CANAL-->
   
+  
      </div>
-     <br><br>
      
      </div>
      
@@ -666,11 +678,11 @@
       <center>
       <ul style="margin-bottom: 1%;" class="list-group-horizontal">
        
-        <li class="list-grup-item menu-element">
+        <li class="list-grup-item menu-element active">
         <a href="go:home">
-        <span>
+        <span class="activo">
         <a class="nav-bar-icon" href="#">
-        <i class="blancolor bottom-icon activo" data-feather="home"></i>
+        <i class="blancolor bottom-icon" data-feather="home"></i>
         </a>
         </span>
         </a>
@@ -678,7 +690,7 @@
         
         <li class="list-grup-item menu-element">
         <a href="go:home">
-        <span>
+        <span class="activo">
         <a class="nav-bar-icon" href="#">
         <i class="blancolor bottom-icon" data-feather="archive"></i>
         </a>
@@ -688,7 +700,7 @@
         
         <li class="list-grup-item menu-element">
         <a href="go:home">
-        <span>
+        <span class="activo">
         <a class="nav-bar-icon" href="#">
         <i class="blancolor bottom-icon" data-feather="speaker"></i>
         </a>
@@ -698,7 +710,7 @@
         
         <li class="list-grup-item menu-element">
         <a href="go:home">
-        <span>
+        <span class="activo">
         <a class="nav-bar-icon" href="#">
         <i class="blancolor bottom-icon" data-feather="info"></i>
         </a>

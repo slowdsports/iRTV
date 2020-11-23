@@ -117,6 +117,9 @@ html body{
             color: red;!important
             top: 1px;
         }
+        .activo{
+            color: #1a75ad;
+        }
         /*CANALES*/
         .beinn{
             background-image: url(https://www.flaticon.es/svg/static/icons/svg/870/870887.svg);

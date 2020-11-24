@@ -5,7 +5,10 @@ html body{
             background-color: #1e1c1c!important;
         }
         .blancolor{
-        color: #fff!important;
+            color: #fff!important;
+        }
+        .blancolormenu{
+            color: rgba(255,255,255,0.6);;
         }
         .nav-bar-icon{
             margin-left: 8px;
@@ -102,7 +105,7 @@ html body{
         }
         .activo
         {
-            color:teal!important
+            color:#fff!important;
         }
         @media(max-width:930px)
         {}
@@ -116,9 +119,6 @@ html body{
         .menu-element{
             color: red;!important
             top: 1px;
-        }
-        .activo{
-            color: #1a75ad;
         }
         /*CANALES*/
         .beinn{

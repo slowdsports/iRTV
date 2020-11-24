@@ -20,7 +20,85 @@
     <!-- Styles -->
     <link rel="stylesheet" href="estilos.css" />
     <style>
-        
+        *{
+			 -webkit-user-select: none;
+    		-moz-user-select: -moz-none;
+    		-o-user-select: none;
+    		user-select: none;
+		}
+		img {
+  			-webkit-user-drag: none;
+  			-moz-user-drag: none;
+  			-o-user-drag: none;
+  			user-drag: none;
+		}
+		img {
+			pointer-events: none;
+		}
+        .card-img-top{
+            width: 100%;
+            height: 100%;
+            position: relative;
+        }
+		.card-movie{
+			padding: 0 !important;
+			width: 15rem;
+			margin: 4px; 
+			border-radius: 10px;
+			box-shadow: 0 3px 4px 0 rgba(0, 0, 0, 0.2), 0 4px 15px 0 rgba(0, 0, 0, 0.19);
+		}
+		.card-movie img{
+			border-top-left-radius: 10px;
+			border-top-right-radius: 10px;
+			height: 18rem;
+		}
+		.info_movie{
+			color: #fff;
+		}
+
+		.info_movie i{
+			font-size: 10px;
+            position: relative;
+            color: #fff;
+		}
+		.card-title{
+			width: 80%;
+			height: 4rem;
+            color: #fff;
+		}
+		.play_button{
+			background-color: #fff;
+   			position: absolute;
+			width: 60px;
+			height: 60px;
+			border-radius: 50%;
+			right: 20px;
+			bottom: 111px;
+			font-size: 27px;
+			padding-left: 7px;
+			padding-top: 18px;
+			color: #5e5c5c;
+			cursor: pointer;
+		}
+		.credits{
+			margin-top: 20px;
+			margin-bottom: 20px;
+			border-radius: 8px;
+			border: 2px solid #fff;
+			font-size: 15px;
+		}
+		.credits .card-body{
+			padding: 0;
+            color: #fff;
+		}
+		.credits p{
+			padding-top: 15px;
+			padding-left: 18px;
+            color: #fff;
+		}
+		.credits .card-body i{
+			color: #fff;
+		}
     </style>
 </head>
 <body>
@@ -30,7 +108,7 @@
       
       <form class="form-inline">
         <a class="nav-bar-icon" href="javascript:void(0)">
-        <i class="blancolor" data-feather="tv"></i>
+        <i class="blancolor" data-feather="film"></i>
         </a>        
         <div class="dropdown">
         <a class="nav-bar-icon" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -95,292 +173,56 @@
      
      <div class="row card-canal px-2">
    
-   <!--CANAL-->    
-  <div class="col-6 col-sm-6">  
-    <div class="card darkolorbg text-white card-canal">
-       <a class="card-link text-white" href="">           
-        <div class="card-body">
-            <div class="d-flex justify-content-center">
-                <img class="canal-img beinn" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
-            </div>
-            
-            <div class="d-flex justify-content-center"><h5>BeIN Sports</h5></div>
-        </div>
-       </a>
-    </div>
-  </div>
+   <!--CANAL-->
+   <a href="go:home" class="href-ns">
+      <div class="card card-movie bg-dark text-white">
+        <img src="https://www.joblo.com/assets/images/joblo/posters/2019/02/detective-pikachu-trailer-poster-main.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+               <!-- PLAY BUTTON -- 
+                <i class="fas fa-play play_button" data-toggle="tooltip" data-placement="bottom" title="Play Trailer">
+                </i>
+                <!-- PLAY BUTTON -->
+                <h5 class="card-title">POKEMON Detective Pikachu</h5>
+                    <span class="info_movie float-center">
+                    Año: 2019 <br>
+                    <span class="idioma espanol"></span>
+                    <span class="calidad calidad4K"></span>
+                    <br>
+                    <span class="subtitulos espanol"></span>	   	    
+                    </span>
+                    <span class="info_movie float-right">
+                    <i class="fas fa-star"></i>
+                    9 / 10
+                    </span>
+              </div>
+      </div>
+   </a>    
    <!--/CANAL-->
    
-   <!--CANAL-->    
-  <div class="col-6 col-sm-6">  
-    <div class="card darkolorbg text-white card-canal">
-       <a class="card-link text-white" href="">           
-        <div class="card-body">
-            <div class="d-flex justify-content-center">
-                <img class="canal-img beinn" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
-            </div>
-            
-            <div class="d-flex justify-content-center"><h5>CeIN Sports</h5></div>
-        </div>
-       </a>
-    </div>
-  </div>
-   <!--/CANAL-->
-   
-   <!--CANAL-->    
-  <div class="col-6 col-sm-6">  
-    <div class="card darkolorbg text-white card-canal">
-       <a class="card-link text-white" href="">           
-        <div class="card-body">
-            <div class="d-flex justify-content-center">
-                <img class="canal-img beinn" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
-            </div>
-            
-            <div class="d-flex justify-content-center"><h5>BeIN Sports</h5></div>
-        </div>
-       </a>
-    </div>
-  </div>
-   <!--/CANAL-->
-   
-   <!--CANAL-->    
-  <div class="col-6 col-sm-6">  
-    <div class="card darkolorbg text-white card-canal">
-       <a class="card-link text-white" href="">           
-        <div class="card-body">
-            <div class="d-flex justify-content-center">
-                <img class="canal-img beinn" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
-            </div>
-            
-            <div class="d-flex justify-content-center"><h5>CeIN Sports</h5></div>
-        </div>
-       </a>
-    </div>
-  </div>
-   <!--/CANAL-->
-   
-   <!--CANAL-->    
-  <div class="col-6 col-sm-6">  
-    <div class="card darkolorbg text-white card-canal">
-       <a class="card-link text-white" href="">           
-        <div class="card-body">
-            <div class="d-flex justify-content-center">
-                <img class="canal-img beinn" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
-            </div>
-            
-            <div class="d-flex justify-content-center"><h5>BeIN Sports</h5></div>
-        </div>
-       </a>
-    </div>
-  </div>
-   <!--/CANAL-->
-   
-   <!--CANAL-->    
-  <div class="col-6 col-sm-6">  
-    <div class="card darkolorbg text-white card-canal">
-       <a class="card-link text-white" href="">           
-        <div class="card-body">
-            <div class="d-flex justify-content-center">
-                <img class="canal-img beinn" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
-            </div>
-            
-            <div class="d-flex justify-content-center"><h5>CeIN Sports</h5></div>
-        </div>
-       </a>
-    </div>
-  </div>
-   <!--/CANAL-->
-   
-   <!--CANAL-->    
-  <div class="col-6 col-sm-6">  
-    <div class="card darkolorbg text-white card-canal">
-       <a class="card-link text-white" href="">           
-        <div class="card-body">
-            <div class="d-flex justify-content-center">
-                <img class="canal-img beinn" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
-            </div>
-            
-            <div class="d-flex justify-content-center"><h5>BeIN Sports</h5></div>
-        </div>
-       </a>
-    </div>
-  </div>
-   <!--/CANAL-->
-   
-   <!--CANAL-->    
-  <div class="col-6 col-sm-6">  
-    <div class="card darkolorbg text-white card-canal">
-       <a class="card-link text-white" href="">           
-        <div class="card-body">
-            <div class="d-flex justify-content-center">
-                <img class="canal-img beinn" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
-            </div>
-            
-            <div class="d-flex justify-content-center"><h5>CeIN Sports</h5></div>
-        </div>
-       </a>
-    </div>
-  </div>
-   <!--/CANAL-->
-   
-   <!--CANAL-->    
-  <div class="col-6 col-sm-6">  
-    <div class="card darkolorbg text-white card-canal">
-       <a class="card-link text-white" href="">           
-        <div class="card-body">
-            <div class="d-flex justify-content-center">
-                <img class="canal-img beinn" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
-            </div>
-            
-            <div class="d-flex justify-content-center"><h5>BeIN Sports</h5></div>
-        </div>
-       </a>
-    </div>
-  </div>
-   <!--/CANAL-->
-   
-   <!--CANAL-->    
-  <div class="col-6 col-sm-6">  
-    <div class="card darkolorbg text-white card-canal">
-       <a class="card-link text-white" href="">           
-        <div class="card-body">
-            <div class="d-flex justify-content-center">
-                <img class="canal-img beinn" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
-            </div>
-            
-            <div class="d-flex justify-content-center"><h5>CeIN Sports</h5></div>
-        </div>
-       </a>
-    </div>
-  </div>
-   <!--/CANAL-->
-   
-   <!--CANAL-->    
-  <div class="col-6 col-sm-6">  
-    <div class="card darkolorbg text-white card-canal">
-       <a class="card-link text-white" href="">           
-        <div class="card-body">
-            <div class="d-flex justify-content-center">
-                <img class="canal-img beinn" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
-            </div>
-            
-            <div class="d-flex justify-content-center"><h5>BeIN Sports</h5></div>
-        </div>
-       </a>
-    </div>
-  </div>
-   <!--/CANAL-->
-   
-   <!--CANAL-->    
-  <div class="col-6 col-sm-6">  
-    <div class="card darkolorbg text-white card-canal">
-       <a class="card-link text-white" href="">           
-        <div class="card-body">
-            <div class="d-flex justify-content-center">
-                <img class="canal-img beinn" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
-            </div>
-            
-            <div class="d-flex justify-content-center"><h5>CeIN Sports</h5></div>
-        </div>
-       </a>
-    </div>
-  </div>
-   <!--/CANAL-->
-   
-   <!--CANAL-->    
-  <div class="col-6 col-sm-6">  
-    <div class="card darkolorbg text-white card-canal">
-       <a class="card-link text-white" href="">           
-        <div class="card-body">
-            <div class="d-flex justify-content-center">
-                <img class="canal-img beinn" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
-            </div>
-            
-            <div class="d-flex justify-content-center"><h5>BeIN Sports</h5></div>
-        </div>
-       </a>
-    </div>
-  </div>
-   <!--/CANAL-->
-   
-   <!--CANAL-->    
-  <div class="col-6 col-sm-6">  
-    <div class="card darkolorbg text-white card-canal">
-       <a class="card-link text-white" href="">           
-        <div class="card-body">
-            <div class="d-flex justify-content-center">
-                <img class="canal-img beinn" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
-            </div>
-            
-            <div class="d-flex justify-content-center"><h5>CeIN Sports</h5></div>
-        </div>
-       </a>
-    </div>
-  </div>
-   <!--/CANAL-->
-   
-   <!--CANAL-->    
-  <div class="col-6 col-sm-6">  
-    <div class="card darkolorbg text-white card-canal">
-       <a class="card-link text-white" href="">           
-        <div class="card-body">
-            <div class="d-flex justify-content-center">
-                <img class="canal-img beinn" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
-            </div>
-            
-            <div class="d-flex justify-content-center"><h5>BeIN Sports</h5></div>
-        </div>
-       </a>
-    </div>
-  </div>
-   <!--/CANAL-->
-   
-   <!--CANAL-->    
-  <div class="col-6 col-sm-6">  
-    <div class="card darkolorbg text-white card-canal">
-       <a class="card-link text-white" href="">           
-        <div class="card-body">
-            <div class="d-flex justify-content-center">
-                <img class="canal-img beinn" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
-            </div>
-            
-            <div class="d-flex justify-content-center"><h5>CeIN Sports</h5></div>
-        </div>
-       </a>
-    </div>
-  </div>
-   <!--/CANAL-->
-   
-   <!--CANAL-->    
-  <div class="col-6 col-sm-6">  
-    <div class="card darkolorbg text-white card-canal">
-       <a class="card-link text-white" href="">           
-        <div class="card-body">
-            <div class="d-flex justify-content-center">
-                <img class="canal-img beinn" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
-            </div>
-            
-            <div class="d-flex justify-content-center"><h5>BeIN Sports</h5></div>
-        </div>
-       </a>
-    </div>
-  </div>
-   <!--/CANAL-->
-   
-   <!--CANAL-->    
-  <div class="col-6 col-sm-6">  
-    <div class="card darkolorbg text-white card-canal">
-       <a class="card-link text-white" href="">           
-        <div class="card-body">
-            <div class="d-flex justify-content-center">
-                <img class="canal-img beinn" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
-            </div>
-            
-            <div class="d-flex justify-content-center"><h5>CeIN Sports</h5></div>
-        </div>
-       </a>
-    </div>
-  </div>
+   <!--CANAL-->
+   <a href="go:home" class="href-ns">
+      <div class="card card-movie bg-dark text-white">
+        <img src="https://www.joblo.com/assets/images/joblo/posters/2019/02/detective-pikachu-trailer-poster-main.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+               <!-- PLAY BUTTON -- 
+                <i class="fas fa-play play_button" data-toggle="tooltip" data-placement="bottom" title="Play Trailer">
+                </i>
+                <!-- PLAY BUTTON -->
+                <h5 class="card-title">POKEMON Detective Pikachu</h5>
+                    <span class="info_movie float-center">
+                    Año: 2019 <br>
+                    <span class="idioma usa"></span>
+                    <span class="calidad calidadHD"></span>
+                    <br>
+                    <span class="subtitulos"></span>	   	    
+                    </span>
+                    <span class="info_movie float-right">
+                    <i class="fas fa-star"></i>
+                    9 / 10
+                    </span>
+              </div>
+      </div>
+   </a>    
    <!--/CANAL-->
   
      </div>
@@ -807,6 +649,14 @@
             });
           });
         });
+        </script>
+        <!--PELICULAS-->
+        <script src="calidad.js"></script>
+        <script src="idioma.js"></script>
+        <script>
+		$(function () {
+  		$('[data-toggle="tooltip"]').tooltip()
+        })
         </script>
     <!--/ACTIVE-->
     <!--/JS-->

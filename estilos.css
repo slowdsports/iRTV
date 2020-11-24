@@ -116,6 +116,10 @@ html body{
         .bottom-icon{
             background-color: #000;
         }
+        .bottom-text{
+            background-color: #000;
+            margin-bottom: -5px;
+        }
         .menu-element{
             color: red;!important
             top: 1px;

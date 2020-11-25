@@ -19,86 +19,8 @@
     <link rel="stylesheet" href="https://slowdsports.com/css/intl.css" />
     <!-- Styles -->
     <link rel="stylesheet" href="estilos.css" />
+    <link rel="stylesheet" href="peliculas.css" />
     <style>
-        *{
-			 -webkit-user-select: none;
-    		-moz-user-select: -moz-none;
-    		-o-user-select: none;
-    		user-select: none;
-		}
-		img {
-  			-webkit-user-drag: none;
-  			-moz-user-drag: none;
-  			-o-user-drag: none;
-  			user-drag: none;
-		}
-		img {
-			pointer-events: none;
-		}
-        .card-img-top{
-            width: 100%;
-            height: 100%;
-            position: relative;
-        }
-		.card-movie{
-			padding: 0 !important;
-			width: 15rem;
-			margin: 4px; 
-			border-radius: 10px;
-			box-shadow: 0 3px 4px 0 rgba(0, 0, 0, 0.2), 0 4px 15px 0 rgba(0, 0, 0, 0.19);
-		}
-		.card-movie img{
-			border-top-left-radius: 10px;
-			border-top-right-radius: 10px;
-			height: 18rem;
-		}
-		.info_movie{
-			color: #fff;
-		}
-
-		.info_movie i{
-			font-size: 10px;
-            position: relative;
-            color: #fff;
-		}
-		.card-title{
-			width: 80%;
-			height: 4rem;
-            color: #fff;
-		}
-		.play_button{
-			background-color: #fff;
-   			position: absolute;
-			width: 60px;
-			height: 60px;
-			border-radius: 50%;
-			right: 20px;
-			bottom: 111px;
-			font-size: 27px;
-			padding-left: 7px;
-			padding-top: 18px;
-			color: #5e5c5c;
-			cursor: pointer;
-		}
-		.credits{
-			margin-top: 20px;
-			margin-bottom: 20px;
-			border-radius: 8px;
-			border: 2px solid #fff;
-			font-size: 15px;
-		}
-		.credits .card-body{
-			padding: 0;
-            color: #fff;
-		}
-		.credits p{
-			padding-top: 15px;
-			padding-left: 18px;
-            color: #fff;
-		}
-		.credits .card-body i{
-			color: #fff;
-		}
     </style>
 </head>
 <body>
@@ -119,13 +41,16 @@
               <div class="col-12">
                 <div class="list-group bg-dark text-white" id="list-tab" role="tablist">
                   <a class="list-group-item list-group-item-action bg-dark text-white active d-flex justify-content-center" id="list-todo-list" data-toggle="list" href="#list-todo" role="tab" aria-controls="todo">
-                  Canales
+                  Películas
                   </a>
                   <a class="list-group-item list-group-item-action bg-dark text-white d-flex justify-content-center" id="list-pais-list" data-toggle="list" href="#list-pais" role="tab" aria-controls="pais">
-                  País
+                  Idioma
                   </a>
                   <a class="list-group-item list-group-item-action bg-dark text-white d-flex justify-content-center" id="list-categoria-list" data-toggle="list" href="#list-categoria" role="tab" aria-controls="categoria">
                   Categoría
+                  </a>
+                  <a class="list-group-item list-group-item-action bg-dark text-white d-flex justify-content-center" id="list-categoria-list" data-toggle="list" href="#list-exclusiva" role="tab" aria-controls="exclusiva">
+                  Exclusivas
                   </a>
                 </div>
               </div>
@@ -174,7 +99,7 @@
      <div class="row card-canal px-2">
    
    <!--CANAL-->
-   <a href="go:home" class="href-ns">
+   <a href="go:peli1" class="href-ns">
       <div class="card card-movie bg-dark text-white">
         <img src="https://www.joblo.com/assets/images/joblo/posters/2019/02/detective-pikachu-trailer-poster-main.jpg" class="card-img-top" alt="...">
             <div class="card-body">
@@ -185,7 +110,7 @@
                 <h5 class="card-title">POKEMON Detective Pikachu</h5>
                     <span class="info_movie float-center">
                     Año: 2019 <br>
-                    <span class="idioma espanol"></span>
+                    <span class="idioma england"></span>
                     <span class="calidad calidad4K"></span>
                     <br>
                     <span class="subtitulos espanol"></span>	   	    
@@ -200,7 +125,7 @@
    <!--/CANAL-->
    
    <!--CANAL-->
-   <a href="go:home" class="href-ns">
+   <a href="go:peli2" class="href-ns">
       <div class="card card-movie bg-dark text-white">
         <img src="https://www.joblo.com/assets/images/joblo/posters/2019/02/detective-pikachu-trailer-poster-main.jpg" class="card-img-top" alt="...">
             <div class="card-body">
@@ -208,13 +133,13 @@
                 <i class="fas fa-play play_button" data-toggle="tooltip" data-placement="bottom" title="Play Trailer">
                 </i>
                 <!-- PLAY BUTTON -->
-                <h5 class="card-title">POKEMON Detective Pikachu</h5>
+                <h5 class="card-title">SUKEMON Detective MANACHU</h5>
                     <span class="info_movie float-center">
                     Año: 2019 <br>
-                    <span class="idioma usa"></span>
+                    <span class="idioma espanol"></span>
                     <span class="calidad calidadHD"></span>
                     <br>
-                    <span class="subtitulos"></span>	   	    
+                    <span class="subtitulos usa"></span>	   	    
                     </span>
                     <span class="info_movie float-right">
                     <i class="fas fa-star"></i>
@@ -251,61 +176,13 @@
    <!--COUN-->    
   <div class="col-4 col-sm-4">  
     <div class="card darkolorbg text-white card-canal">
-       <a class="card-link text-white" href="go:alemania">           
-        <div class="card-body">
-            <div class="d-flex justify-content-center">
-                <img class="canal-img alemania" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
-            </div>
-            
-            <div class="d-flex justify-content-center"><h5>Alemania</h5></div>
-        </div>
-       </a>
-    </div>
-  </div>
-   <!--/COUN-->
-   
-   <!--COUN-->    
-  <div class="col-4 col-sm-4">  
-    <div class="card darkolorbg text-white card-canal">
-       <a class="card-link text-white" href="go:argentina">           
-        <div class="card-body">
-            <div class="d-flex justify-content-center">
-                <img class="canal-img argentina" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
-            </div>
-            
-            <div class="d-flex justify-content-center"><h5>Argentina</h5></div>
-        </div>
-       </a>
-    </div>
-  </div>
-   <!--/COUN-->
-   
-   <!--COUN-->    
-  <div class="col-4 col-sm-4">  
-    <div class="card darkolorbg text-white card-canal">
-       <a class="card-link text-white" href="">           
-        <div class="card-body">
-            <div class="d-flex justify-content-center">
-                <img class="canal-img belgica" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
-            </div>
-            
-            <div class="d-flex justify-content-center"><h5>Bélgica</h5></div>
-        </div>
-       </a>
-    </div>
-  </div>
-   <!--/COUN-->
-   
-   <!--COUN-->    
-  <div class="col-4 col-sm-4">  
-    <div class="card darkolorbg text-white card-canal">
-       <a class="card-link text-white" href="go:espana">           
+       <a class="card-link text-white" href="go:pespana">           
         <div class="card-body">
             <div class="d-flex justify-content-center">
                 <img class="canal-img espana" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
             </div>
             
-            <div class="d-flex justify-content-center"><h5>España</h5></div>
+            <div class="d-flex justify-content-center"><h5>Español</h5></div>
         </div>
        </a>
     </div>
@@ -315,13 +192,13 @@
    <!--COUN-->    
   <div class="col-4 col-sm-4">  
     <div class="card darkolorbg text-white card-canal">
-       <a class="card-link text-white" href="go:honduras">           
+       <a class="card-link text-white" href="go:pusa">           
         <div class="card-body">
             <div class="d-flex justify-content-center">
-                <img class="canal-img honduras" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
+                <img class="canal-img estadosunidos" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
             </div>
             
-            <div class="d-flex justify-content-center"><h5>Honduras</h5></div>
+            <div class="d-flex justify-content-center"><h5>Inglés</h5></div>
         </div>
        </a>
     </div>
@@ -331,13 +208,29 @@
    <!--COUN-->    
   <div class="col-4 col-sm-4">  
     <div class="card darkolorbg text-white card-canal">
-       <a class="card-link text-white" href="go:italia">           
+       <a class="card-link text-white" href="go:pitalia">           
         <div class="card-body">
             <div class="d-flex justify-content-center">
                 <img class="canal-img italia" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
             </div>
             
-            <div class="d-flex justify-content-center"><h5>Italia</h5></div>
+            <div class="d-flex justify-content-center"><h5>Italiano</h5></div>
+        </div>
+       </a>
+    </div>
+  </div>
+   <!--/COUN-->
+   
+   <!--COUN-->    
+  <div class="col-4 col-sm-4">  
+    <div class="card darkolorbg text-white card-canal">
+       <a class="card-link text-white" href="go:pfrancia">           
+        <div class="card-body">
+            <div class="d-flex justify-content-center">
+                <img class="canal-img francia" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
+            </div>
+            
+            <div class="d-flex justify-content-center"><h5>Francés</h5></div>
         </div>
        </a>
     </div>
@@ -378,7 +271,7 @@
             </svg>
             </div>
             
-            <div class="d-flex justify-content-center categ-text"><h5>Arte</h5></div>
+            <div class="d-flex justify-content-center categ-text"><h5>Acción</h5></div>
         </div>
        </a>
     </div>
@@ -397,26 +290,7 @@
             </svg>
             </div>
             
-            <div class="d-flex justify-content-center categ-text"><h5>Noticias</h5></div>
-        </div>
-       </a>
-    </div>
-  </div>
-   <!--/CATEG-->
-   
-   <!--CATEG-->    
-  <div class="col-4 col-sm-4">  
-    <div class="card darkolorbg text-white card-canal">
-       <a class="card-link text-white" href="">           
-        <div class="card-body">
-            <div class="d-flex justify-content-center">
-            <svg height="48px" viewBox="0 0 16 16" class="bi bi-briefcase" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-              <path fill-rule="evenodd" d="M0 12.5A1.5 1.5 0 0 0 1.5 14h13a1.5 1.5 0 0 0 1.5-1.5v-6h-1v6a.5.5 0 0 1-.5.5h-13a.5.5 0 0 1-.5-.5v-6H0v6z"/>
-              <path fill-rule="evenodd" d="M0 4.5A1.5 1.5 0 0 1 1.5 3h13A1.5 1.5 0 0 1 16 4.5v2.384l-7.614 2.03a1.5 1.5 0 0 1-.772 0L0 6.884V4.5zM1.5 4a.5.5 0 0 0-.5.5v1.616l6.871 1.832a.5.5 0 0 0 .258 0L15 6.116V4.5a.5.5 0 0 0-.5-.5h-13zM5 2.5A1.5 1.5 0 0 1 6.5 1h3A1.5 1.5 0 0 1 11 2.5V3h-1v-.5a.5.5 0 0 0-.5-.5h-3a.5.5 0 0 0-.5.5V3H5v-.5z"/>
-            </svg>
-            </div>
-            
-            <div class="d-flex justify-content-center categ-text"><h5>Negocios</h5></div>
+            <div class="d-flex justify-content-center categ-text"><h5>Aventura</h5></div>
         </div>
        </a>
     </div>
@@ -455,7 +329,7 @@
             </svg>
             </div>
             
-            <div class="d-flex justify-content-center categ-text"><h5>Educación</h5></div>
+            <div class="d-flex justify-content-center categ-text"><h5>Drama</h5></div>
         </div>
        </a>
     </div>
@@ -548,7 +422,71 @@
      </div>
      
      <!--/CATEGORIA-->
-     <div class="tab-pane fade" id="list-categoria" role="tabpanel" aria-labelledby="list-categoria-list">CATEGORÍA</div>
+     <div class="tab-pane fade" id="list-exclusiva" role="tabpanel" aria-labelledby="list-exclusiva-list">
+         
+         <div class="tab-pane fade show" id="list-categoria" role="tabpanel" aria-labelledby="list-categoria-list">
+     
+     <div class="container">
+      <input id="categorySearch" onkeyup="myFunction()" class="form-control mb-4" id="tableSearch" type="text"
+        placeholder="Buscar...">
+      </div>
+  
+      <div class="container" id="categoryList">
+     
+     <h4 class="text-white">EXCLUSIVAS:</h4>
+     
+     <div class="row card-canal px-2">
+   
+   <!--CATEG-->    
+  <div class="col-4 col-sm-4">  
+    <div class="card darkolorbg text-white card-canal">
+       <a class="card-link text-white" href="go:pnetflix">           
+        <div class="card-body">
+            <div class="d-flex justify-content-center">
+            <img class="img-exclusiva" src="https://www.flaticon.es/svg/static/icons/svg/870/870910.svg" alt="">
+            </div>            
+            <div class="d-flex justify-content-center categ-text"><h5>Netflix</h5></div>
+        </div>
+       </a>
+    </div>
+  </div>
+   <!--/CATEG-->
+   
+   <!--CATEG-->    
+  <div class="col-4 col-sm-4">  
+    <div class="card darkolorbg text-white card-canal">
+       <a class="card-link text-white" href="go:pprime">           
+        <div class="card-body">
+            <div class="d-flex justify-content-center">
+            <img class="img-exclusiva" src="https://cdn-ssl.vizio.com/skin/frontend/enterprise/vizio_2014/assets/img/showcase/app-logo-amazon.svg?ver=1577135833" alt="">
+            </div>            
+            <div class="d-flex justify-content-center categ-text"><h5>Prime</h5></div>
+        </div>
+       </a>
+    </div>
+  </div>
+   <!--/CATEG-->
+   
+   <!--CATEG-->    
+  <div class="col-4 col-sm-4">  
+    <div class="card darkolorbg text-white card-canal">
+       <a class="card-link text-white" href="go:phbo">           
+        <div class="card-body">
+            <div class="d-flex justify-content-center">
+            <img class="img-exclusiva" src="https://www.flaticon.es/svg/static/icons/svg/826/826334.svg" alt="">
+            </div>            
+            <div class="d-flex justify-content-center categ-text"><h5>HBO</h5></div>
+        </div>
+       </a>
+    </div>
+  </div>
+   <!--/CATEG-->
+         
+     </div>
+     </div>
+     </div>
+     </div>
+     
      <div class="tab-pane fade" id="list-settings" role="tabpanel" aria-labelledby="list-settings-list">SETTINGS</div>
      
   </div>
@@ -562,8 +500,8 @@
         <li class="list-grup-item menu-element">
         <a href="go:home">
         <span>
-        <a class="nav-bar-icon" href="javascript:void(0)">
-        <i class="blancolormenu bottom-icon activo" data-feather="home"></i>
+        <a class="nav-bar-icon" href="go:home">
+        <i class="blancolormenu bottom-icon" data-feather="home"></i>
         <p class="blancolormenu bottom-text">Televisión</p>
         </a>
         </span>
@@ -571,11 +509,11 @@
         </li>
         
         <li class="list-grup-item menu-element">
-        <a href="go:home">
+        <a href="go:javascript:void(0)">
         <span>
-        <a class="nav-bar-icon" href="#">
-        <i class="blancolormenu bottom-icon" data-feather="film"></i>
-        <p class="blancolormenu bottom-text">Películas</p>
+        <a class="nav-bar-icon" href="javascript:void(0)">
+        <i class="blancolormenu bottom-icon activo" data-feather="film"></i>
+        <p class="blancolormenu bottom-text activo">Películas</p>
         </a>
         </span>
         </a>
@@ -584,7 +522,7 @@
         <li class="list-grup-item menu-element">
         <a href="go:radio">
         <span>
-        <a class="nav-bar-icon" href="#">
+        <a class="nav-bar-icon" href="go:radio">
         <i class="blancolormenu bottom-icon" data-feather="radio"></i>
         <p class="blancolormenu bottom-text">Radio</p>
         </a>
@@ -595,7 +533,7 @@
         <li class="list-grup-item menu-element">
         <a href="go:info">
         <span>
-        <a class="nav-bar-icon" href="#">
+        <a class="nav-bar-icon" href="go:info">
         <i class="blancolormenu bottom-icon" data-feather="info"></i>
         <p class="blancolormenu bottom-text">Información</p>
         </a>
@@ -617,47 +555,15 @@
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
     <!--FILTERS-->
-        <!--TODO-->
-        <script>
-        $(document).ready(function(){
-          $("#channelSearch").on("keyup", function() {
-            var value = $(this).val().toLowerCase();
-            $("#channelsList div").filter(function() {
-              $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
-            });
-          });
-        });
-        </script>
-        <!--PAIS-->
-        <script>
-        $(document).ready(function(){
-          $("#countrySearch").on("keyup", function() {
-            var value = $(this).val().toLowerCase();
-            $("#countryList div").filter(function() {
-              $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
-            });
-          });
-        });
-        </script>
-        <!--CATEGORIA-->
-        <script>
-        $(document).ready(function(){
-          $("#categorySearch").on("keyup", function() {
-            var value = $(this).val().toLowerCase();
-            $("#categoryList div").filter(function() {
-              $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
-            });
-          });
-        });
-        </script>
-        <!--PELICULAS-->
-        <script src="calidad.js"></script>
-        <script src="idioma.js"></script>
-        <script>
-		$(function () {
-  		$('[data-toggle="tooltip"]').tooltip()
-        })
-        </script>
+    <script src="filtro.js"></script>
+    <!--PELICULAS-->
+    <script src="calidad.js"></script>
+    <script src="idioma.js"></script>
+    <script>
+	(function () {
+  	('[data-toggle="tooltip"]').tooltip()
+    })
+    </script>
     <!--/ACTIVE-->
     <!--/JS-->
 </body>

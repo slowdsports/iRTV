@@ -1,7 +1,7 @@
 let formatoChannel =
 `
 <div class="card darkolorbg text-white card-canal">
-       <a class="card-link text-white" href="">           
+       <a class="card-link text-white" href="go:">           
         <div class="card-body">
             <div class="d-flex justify-content-center">
                 <img class="canal-img beinn" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
@@ -15,7 +15,7 @@ let formatoChannel =
 let formatoChannel2 =
 `
 <div class="card darkolorbg text-white card-canal">
-       <a class="card-link text-white" href="">           
+       <a class="card-link text-white" href="go:">           
         <div class="card-body">
             <div class="d-flex justify-content-center">
                 <img class="canal-img beinn" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
@@ -27,10 +27,38 @@ let formatoChannel2 =
     </div>
 `;
 // PCLL
+let azteca7 =
+`
+<div class="card darkolorbg text-white card-canal">
+       <a class="card-link text-white" href="go:azteca7">           
+        <div class="card-body">
+            <div class="d-flex justify-content-center">
+                <img class="canal-img azteca7" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
+            </div>
+            
+            <div class="d-flex justify-content-center"><h5>Azteca 7</h5></div>
+        </div>
+       </a>
+    </div>
+`;
+let bayern =
+`
+<div class="card darkolorbg text-white card-canal">
+       <a class="card-link text-white" href="go:bayern">           
+        <div class="card-body">
+            <div class="d-flex justify-content-center">
+                <img class="canal-img bayern" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
+            </div>
+            
+            <div class="d-flex justify-content-center"><h5>Bayern TV</h5></div>
+        </div>
+       </a>
+    </div>
+`;
 let beinus =
 `
 <div class="card darkolorbg text-white card-canal">
-       <a class="card-link text-white" href="">           
+       <a class="card-link text-white" href="go:beinus">           
         <div class="card-body">
             <div class="d-flex justify-content-center">
                 <img class="canal-img beinn" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
@@ -44,7 +72,7 @@ let beinus =
 let beinn =
 `
 <div class="card darkolorbg text-white card-canal">
-       <a class="card-link text-white" href="">           
+       <a class="card-link text-white" href="go:beinn">           
         <div class="card-body">
             <div class="d-flex justify-content-center">
                 <img class="canal-img beinn" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
@@ -58,7 +86,7 @@ let beinn =
 let beinlaliga =
 `
 <div class="card darkolorbg text-white card-canal">
-       <a class="card-link text-white" href="">           
+       <a class="card-link text-white" href="go:beinlaliga">           
         <div class="card-body">
             <div class="d-flex justify-content-center">
                 <img class="canal-img beinn" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
@@ -72,7 +100,7 @@ let beinlaliga =
 let bemad =
 `
 <div class="card darkolorbg text-white card-canal">
-       <a class="card-link text-white" href="">           
+       <a class="card-link text-white" href="go:bemad">           
         <div class="card-body">
             <div class="d-flex justify-content-center">
                 <img class="canal-img bemad" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
@@ -86,7 +114,7 @@ let bemad =
 let tyc =
 `
 <div class="card darkolorbg text-white card-canal">
-       <a class="card-link text-white" href="">           
+       <a class="card-link text-white" href="go:tyc">           
         <div class="card-body">
             <div class="d-flex justify-content-center">
                 <img class="canal-img tyc" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
@@ -100,7 +128,7 @@ let tyc =
 let lequipe =
 `
 <div class="card darkolorbg text-white card-canal">
-       <a class="card-link text-white" href="">           
+       <a class="card-link text-white" href="go:lequipe">           
         <div class="card-body">
             <div class="d-flex justify-content-center">
                 <img class="canal-img lequipe" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
@@ -114,7 +142,7 @@ let lequipe =
 let tigohn =
 `
 <div class="card darkolorbg text-white card-canal">
-       <a class="card-link text-white" href="">           
+       <a class="card-link text-white" href="go:tigohn">           
         <div class="card-body">
             <div class="d-flex justify-content-center">
                 <img class="canal-img tigo" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
@@ -128,7 +156,7 @@ let tigohn =
 let tigopy =
 `
 <div class="card darkolorbg text-white card-canal">
-       <a class="card-link text-white" href="">           
+       <a class="card-link text-white" href="go:tigopy">           
         <div class="card-body">
             <div class="d-flex justify-content-center">
                 <img class="canal-img tigo" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
@@ -142,7 +170,7 @@ let tigopy =
 let goltvec =
 `
 <div class="card darkolorbg text-white card-canal">
-       <a class="card-link text-white" href="">           
+       <a class="card-link text-white" href="go:goltvec">           
         <div class="card-body">
             <div class="d-flex justify-content-center">
                 <img class="canal-img goltvec" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
@@ -156,6 +184,8 @@ let goltvec =
 
 for(const ele of document.getElementsByClassName("formato-channel")){ele.innerHTML=(formatoChannel)};
 for(const ele of document.getElementsByClassName("formato-channel2")){ele.innerHTML=(formatoChannel2)};
+for(const ele of document.getElementsByClassName("tv-azteca7")){ele.innerHTML=(azteca7)};
+for(const ele of document.getElementsByClassName("tv-bayern")){ele.innerHTML=(bayern)};
 for(const ele of document.getElementsByClassName("tv-beinus")){ele.innerHTML=(beinus)};
 for(const ele of document.getElementsByClassName("tv-beinn")){ele.innerHTML=(beinn)};
 for(const ele of document.getElementsByClassName("tv-beinlaliga")){ele.innerHTML=(beinlaliga)};

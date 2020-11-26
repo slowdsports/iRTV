@@ -1,4 +1,14 @@
 /*CANALES*/
+.azteca7{
+    background-image: url(https://destel.mx/wp-content/uploads/2016/04/418.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.bayern{
+    background-image: url(../images/bayern.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
 .beinn{
     background-image: url(https://www.flaticon.es/svg/static/icons/svg/870/870887.svg);
     background-repeat: no-repeat;

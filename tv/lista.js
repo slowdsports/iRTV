@@ -47,7 +47,7 @@ let bayern =
        <a class="card-link text-white" href="go:bayern">           
         <div class="card-body">
             <div class="d-flex justify-content-center">
-                <img class="canal-img bayern" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
+                <img class="canal-img bayerntv" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
             </div>
             
             <div class="d-flex justify-content-center"><h5>Bayern TV</h5></div>

@@ -1,0 +1,31 @@
+/*CANALES*/
+.beinn{
+    background-image: url(https://www.flaticon.es/svg/static/icons/svg/870/870887.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.bemad{
+    background-image: url(../images/bemad.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.tyc{
+    background-image: url(../images/tycsports.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.lequipe{
+    background-image: url(../images/lequipe.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.tigo{
+    background-image: url(../images/tigosports.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.goltvec{
+    background-image: url(../images/goltv.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}

@@ -820,7 +820,7 @@ let tigohn =
                 <img class="canal-img tigo" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
             </div>
             
-            <div class="d-flex justify-content-center"><h5>Tigo Sports</h5></div>
+            <div class="d-flex justify-content-center"><h5><i class="hn flag"></i>Tigo</h5></div>
         </div>
        </a>
     </div>
@@ -834,7 +834,21 @@ let tigopy =
                 <img class="canal-img tigo" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
             </div>
             
-            <div class="d-flex justify-content-center"><h5>Tigo Sports</h5></div>
+            <div class="d-flex justify-content-center"><h5><i class="py flag"></i>Tigo</h5></div>
+        </div>
+       </a>
+    </div>
+`;
+let tyc =
+`
+<div class="card darkolorbg text-white card-canal">
+       <a class="card-link text-white" href="go:tigopy">           
+        <div class="card-body">
+            <div class="d-flex justify-content-center">
+                <img class="canal-img tyc" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
+            </div>
+            
+            <div class="d-flex justify-content-center"><h5>TyC Sports</h5></div>
         </div>
        </a>
     </div>

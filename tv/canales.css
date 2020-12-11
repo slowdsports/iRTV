@@ -1,4 +1,14 @@
 /*CANALES*/
+.cero{
+    background-image: url(../images/0.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.azteca1{
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/4/4a/AZSINCOPY.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
 .azteca7{
     background-image: url(https://destel.mx/wp-content/uploads/2016/04/418.png);
     background-repeat: no-repeat;

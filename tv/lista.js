@@ -765,6 +765,550 @@ let adventure =
 
 for(const ele of document.getElementsByClassName("tv-adventure")){ele.innerHTML=(adventure)};
 
+let ae =
+`
+<div class="card darkolorbg text-white card-canal">
+       <a class="card-link text-white" href="go:ae">           
+        <div class="card-body">
+            <div class="d-flex justify-content-center">
+                <img class="canal-img ae" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
+            </div>
+            
+            <div class="d-flex justify-content-center"><h5>A&E</h5></div>
+        </div>
+       </a>
+    </div>
+`;
+
+for(const ele of document.getElementsByClassName("tv-ae")){ele.innerHTML=(ae)};
+
+let afv =
+`
+<div class="card darkolorbg text-white card-canal">
+       <a class="card-link text-white" href="go:afv">           
+        <div class="card-body">
+            <div class="d-flex justify-content-center">
+                <img class="canal-img afv" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
+            </div>
+            
+            <div class="d-flex justify-content-center"><h5>AFV</h5></div>
+        </div>
+       </a>
+    </div>
+`;
+
+for(const ele of document.getElementsByClassName("tv-afv")){ele.innerHTML=(afv)};
+
+let ahc =
+`
+<div class="card darkolorbg text-white card-canal">
+       <a class="card-link text-white" href="go:ahc">           
+        <div class="card-body">
+            <div class="d-flex justify-content-center">
+                <img class="canal-img ahc" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
+            </div>
+            
+            <div class="d-flex justify-content-center"><h5>AHC</h5></div>
+        </div>
+       </a>
+    </div>
+`;
+
+for(const ele of document.getElementsByClassName("tv-ahc")){ele.innerHTML=(ahc)};
+
+let ahoratv =
+`
+<div class="card darkolorbg text-white card-canal">
+       <a class="card-link text-white" href="go:ahoratv">           
+        <div class="card-body">
+            <div class="d-flex justify-content-center">
+                <img class="canal-img ahoratv" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
+            </div>
+            
+            <div class="d-flex justify-content-center"><h5>Ahora TV</h5></div>
+        </div>
+       </a>
+    </div>
+`;
+
+for(const ele of document.getElementsByClassName("tv-ahoratv")){ele.innerHTML=(ahoratv)};
+
+let akctv =
+`
+<div class="card darkolorbg text-white card-canal">
+       <a class="card-link text-white" href="go:akctv">           
+        <div class="card-body">
+            <div class="d-flex justify-content-center">
+                <img class="canal-img akctv" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
+            </div>
+            
+            <div class="d-flex justify-content-center"><h5>AKC TV</h5></div>
+        </div>
+       </a>
+    </div>
+`;
+
+for(const ele of document.getElementsByClassName("tv-akctv")){ele.innerHTML=(akctv)};
+
+let aktionar =
+`
+<div class="card darkolorbg text-white card-canal">
+       <a class="card-link text-white" href="go:aktionar">           
+        <div class="card-body">
+            <div class="d-flex justify-content-center">
+                <img class="canal-img aktionar" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
+            </div>
+            
+            <div class="d-flex justify-content-center"><h5>Aktionar</h5></div>
+        </div>
+       </a>
+    </div>
+`;
+
+for(const ele of document.getElementsByClassName("tv-aktionar")){ele.innerHTML=(aktionar)};
+
+let alarabiya =
+`
+<div class="card darkolorbg text-white card-canal">
+       <a class="card-link text-white" href="go:alarabiya">           
+        <div class="card-body">
+            <div class="d-flex justify-content-center">
+                <img class="canal-img alarabiya" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
+            </div>
+            
+            <div class="d-flex justify-content-center"><h5>Alarabiya</h5></div>
+        </div>
+       </a>
+    </div>
+`;
+
+for(const ele of document.getElementsByClassName("tv-alarabiya")){ele.innerHTML=(alarabiya)};
+
+let alcarriatv =
+`
+<div class="card darkolorbg text-white card-canal">
+       <a class="card-link text-white" href="go:alcarriatv">           
+        <div class="card-body">
+            <div class="d-flex justify-content-center">
+                <img class="canal-img alcarriatv" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
+            </div>
+            
+            <div class="d-flex justify-content-center"><h5>Alcarria TV</h5></div>
+        </div>
+       </a>
+    </div>
+`;
+
+for(const ele of document.getElementsByClassName("tv-alcarriatv")){ele.innerHTML=(alcarriatv)};
+
+let alee =
+`
+<div class="card darkolorbg text-white card-canal">
+       <a class="card-link text-white" href="go:alee">           
+        <div class="card-body">
+            <div class="d-flex justify-content-center">
+                <img class="canal-img alee" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
+            </div>
+            
+            <div class="d-flex justify-content-center"><h5>Alee</h5></div>
+        </div>
+       </a>
+    </div>
+`;
+
+for(const ele of document.getElementsByClassName("tv-alee")){ele.innerHTML=(alee)};
+
+let alex =
+`
+<div class="card darkolorbg text-white card-canal">
+       <a class="card-link text-white" href="go:alex">           
+        <div class="card-body">
+            <div class="d-flex justify-content-center">
+                <img class="canal-img alex" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
+            </div>
+            
+            <div class="d-flex justify-content-center"><h5>Alex</h5></div>
+        </div>
+       </a>
+    </div>
+`;
+
+for(const ele of document.getElementsByClassName("tv-alex")){ele.innerHTML=(alex)};
+
+let alhurra =
+`
+<div class="card darkolorbg text-white card-canal">
+       <a class="card-link text-white" href="go:alhurra">           
+        <div class="card-body">
+            <div class="d-flex justify-content-center">
+                <img class="canal-img alhurra" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
+            </div>
+            
+            <div class="d-flex justify-content-center"><h5>Alhurra</h5></div>
+        </div>
+       </a>
+    </div>
+`;
+
+for(const ele of document.getElementsByClassName("tv-alhurra")){ele.innerHTML=(alhurra)};
+
+let aliento =
+`
+<div class="card darkolorbg text-white card-canal">
+       <a class="card-link text-white" href="go:aliento">           
+        <div class="card-body">
+            <div class="d-flex justify-content-center">
+                <img class="canal-img aliento" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
+            </div>
+            
+            <div class="d-flex justify-content-center"><h5>Aliento</h5></div>
+        </div>
+       </a>
+    </div>
+`;
+
+for(const ele of document.getElementsByClassName("tv-aliento")){ele.innerHTML=(aliento)};
+
+let aljazeera =
+`
+<div class="card darkolorbg text-white card-canal">
+       <a class="card-link text-white" href="go:aljazeera">           
+        <div class="card-body">
+            <div class="d-flex justify-content-center">
+                <img class="canal-img aljazeera" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
+            </div>
+            
+            <div class="d-flex justify-content-center"><h5>Aljazeera</h5></div>
+        </div>
+       </a>
+    </div>
+`;
+
+for(const ele of document.getElementsByClassName("tv-aljazeera")){ele.innerHTML=(aljazeera)};
+
+let alkass =
+`
+<div class="card darkolorbg text-white card-canal">
+       <a class="card-link text-white" href="go:alkass">           
+        <div class="card-body">
+            <div class="d-flex justify-content-center">
+                <img class="canal-img alkass" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
+            </div>
+            
+            <div class="d-flex justify-content-center"><h5>Alkass</h5></div>
+        </div>
+       </a>
+    </div>
+`;
+
+for(const ele of document.getElementsByClassName("tv-alkass")){ele.innerHTML=(alkass)};
+
+let allsports =
+`
+<div class="card darkolorbg text-white card-canal">
+       <a class="card-link text-white" href="go:allsports">           
+        <div class="card-body">
+            <div class="d-flex justify-content-center">
+                <img class="canal-img allsports" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
+            </div>
+            
+            <div class="d-flex justify-content-center"><h5>All Sports</h5></div>
+        </div>
+       </a>
+    </div>
+`;
+
+for(const ele of document.getElementsByClassName("tv-allsports")){ele.innerHTML=(allsports)};
+
+let almansa =
+`
+<div class="card darkolorbg text-white card-canal">
+       <a class="card-link text-white" href="go:almansa">           
+        <div class="card-body">
+            <div class="d-flex justify-content-center">
+                <img class="canal-img almansa" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
+            </div>
+            
+            <div class="d-flex justify-content-center"><h5>Almansa</h5></div>
+        </div>
+       </a>
+    </div>
+`;
+
+for(const ele of document.getElementsByClassName("tv-almansa")){ele.innerHTML=(almansa)};
+
+let almassora =
+`
+<div class="card darkolorbg text-white card-canal">
+       <a class="card-link text-white" href="go:almassora">           
+        <div class="card-body">
+            <div class="d-flex justify-content-center">
+                <img class="canal-img almassora" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
+            </div>
+            
+            <div class="d-flex justify-content-center"><h5>Almassora</h5></div>
+        </div>
+       </a>
+    </div>
+`;
+
+for(const ele of document.getElementsByClassName("tv-almassora")){ele.innerHTML=(almassora)};
+
+let alsace20 =
+`
+<div class="card darkolorbg text-white card-canal">
+       <a class="card-link text-white" href="go:alsace20">           
+        <div class="card-body">
+            <div class="d-flex justify-content-center">
+                <img class="canal-img alsace" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
+            </div>
+            
+            <div class="d-flex justify-content-center"><h5>Alsace</h5></div>
+        </div>
+       </a>
+    </div>
+`;
+
+for(const ele of document.getElementsByClassName("tv-alsace20")){ele.innerHTML=(alsace20)};
+
+let amc =
+`
+<div class="card darkolorbg text-white card-canal">
+       <a class="card-link text-white" href="go:amc">           
+        <div class="card-body">
+            <div class="d-flex justify-content-center">
+                <img class="canal-img amc" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
+            </div>
+            
+            <div class="d-flex justify-content-center"><h5>AMC</h5></div>
+        </div>
+       </a>
+    </div>
+`;
+
+for(const ele of document.getElementsByClassName("tv-amc")){ele.innerHTML=(amc)};
+
+let amcanal =
+`
+<div class="card darkolorbg text-white card-canal">
+       <a class="card-link text-white" href="go:amcanal">           
+        <div class="card-body">
+            <div class="d-flex justify-content-center">
+                <img class="canal-img amcanal" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
+            </div>
+            
+            <div class="d-flex justify-content-center"><h5>Amcanal</h5></div>
+        </div>
+       </a>
+    </div>
+`;
+
+for(const ele of document.getElementsByClassName("tv-amcanal")){ele.innerHTML=(amcanal)};
+
+let america =
+`
+<div class="card darkolorbg text-white card-canal">
+       <a class="card-link text-white" href="go:america">           
+        <div class="card-body">
+            <div class="d-flex justify-content-center">
+                <img class="canal-img america" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
+            </div>
+            
+            <div class="d-flex justify-content-center"><h5>America</h5></div>
+        </div>
+       </a>
+    </div>
+`;
+
+for(const ele of document.getElementsByClassName("tv-america")){ele.innerHTML=(america)};
+
+let americanhorrors =
+`
+<div class="card darkolorbg text-white card-canal">
+       <a class="card-link text-white" href="go:americanhorrors">           
+        <div class="card-body">
+            <div class="d-flex justify-content-center">
+                <img class="canal-img americanhorrors" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
+            </div>
+            
+            <div class="d-flex justify-content-center"><h5>American Horrors</h5></div>
+        </div>
+       </a>
+    </div>
+`;
+
+for(const ele of document.getElementsByClassName("tv-americanhorrors")){ele.innerHTML=(americanhorrors)};
+
+let americateve =
+`
+<div class="card darkolorbg text-white card-canal">
+       <a class="card-link text-white" href="go:americateve">           
+        <div class="card-body">
+            <div class="d-flex justify-content-center">
+                <img class="canal-img americateve" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
+            </div>
+            
+            <div class="d-flex justify-content-center"><h5>America Teve</h5></div>
+        </div>
+       </a>
+    </div>
+`;
+
+for(const ele of document.getElementsByClassName("tv-americateve")){ele.innerHTML=(americateve)};
+
+let americatv =
+`
+<div class="card darkolorbg text-white card-canal">
+       <a class="card-link text-white" href="go:americatv">           
+        <div class="card-body">
+            <div class="d-flex justify-content-center">
+                <img class="canal-img americatv" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
+            </div>
+            
+            <div class="d-flex justify-content-center"><h5>America TV</h5></div>
+        </div>
+       </a>
+    </div>
+`;
+
+for(const ele of document.getElementsByClassName("tv-americatv")){ele.innerHTML=(americatv)};
+
+let amsports =
+`
+<div class="card darkolorbg text-white card-canal">
+       <a class="card-link text-white" href="go:amsports">           
+        <div class="card-body">
+            <div class="d-flex justify-content-center">
+                <img class="canal-img amsports" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
+            </div>
+            
+            <div class="d-flex justify-content-center"><h5>Am Sports</h5></div>
+        </div>
+       </a>
+    </div>
+`;
+
+for(const ele of document.getElementsByClassName("tv-amsports")){ele.innerHTML=(amsports)};
+
+let animalplanet =
+`
+<div class="card darkolorbg text-white card-canal">
+       <a class="card-link text-white" href="go:animalplanet">           
+        <div class="card-body">
+            <div class="d-flex justify-content-center">
+                <img class="canal-img animalplanet" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
+            </div>
+            
+            <div class="d-flex justify-content-center"><h5>Animar Planet</h5></div>
+        </div>
+       </a>
+    </div>
+`;
+
+for(const ele of document.getElementsByClassName("tv-animalplanet")){ele.innerHTML=(animalplanet)};
+
+let animeallday =
+`
+<div class="card darkolorbg text-white card-canal">
+       <a class="card-link text-white" href="go:animeallday">           
+        <div class="card-body">
+            <div class="d-flex justify-content-center">
+                <img class="canal-img animeallday" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
+            </div>
+            
+            <div class="d-flex justify-content-center"><h5>Anime all Day</h5></div>
+        </div>
+       </a>
+    </div>
+`;
+
+for(const ele of document.getElementsByClassName("tv-animeallday")){ele.innerHTML=(animeallday)};
+
+let ann =
+`
+<div class="card darkolorbg text-white card-canal">
+       <a class="card-link text-white" href="go:ann">           
+        <div class="card-body">
+            <div class="d-flex justify-content-center">
+                <img class="canal-img ann" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
+            </div>
+            
+            <div class="d-flex justify-content-center"><h5>ANN</h5></div>
+        </div>
+       </a>
+    </div>
+`;
+
+for(const ele of document.getElementsByClassName("tv-ann")){ele.innerHTML=(ann)};
+
+let ant1 =
+`
+<div class="card darkolorbg text-white card-canal">
+       <a class="card-link text-white" href="go:almansa">           
+        <div class="card-body">
+            <div class="d-flex justify-content-center">
+                <img class="canal-img ant1" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
+            </div>
+            
+            <div class="d-flex justify-content-center"><h5>Ant 1</h5></div>
+        </div>
+       </a>
+    </div>
+`;
+
+for(const ele of document.getElementsByClassName("tv-ant1")){ele.innerHTML=(ant1)};
+
+let antenalatina =
+`
+<div class="card darkolorbg text-white card-canal">
+       <a class="card-link text-white" href="go:antenalatina">           
+        <div class="card-body">
+            <div class="d-flex justify-content-center">
+                <img class="canal-img antenalatina" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
+            </div>
+            
+            <div class="d-flex justify-content-center"><h5>Antena Latina</h5></div>
+        </div>
+       </a>
+    </div>
+`;
+
+for(const ele of document.getElementsByClassName("tv-antenalatina")){ele.innerHTML=(antenalatina)};
+
+let antenne =
+`
+<div class="card darkolorbg text-white card-canal">
+       <a class="card-link text-white" href="go:almansa">           
+        <div class="card-body">
+            <div class="d-flex justify-content-center">
+                <img class="canal-img antenne" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
+            </div>
+            
+            <div class="d-flex justify-content-center"><h5>Antenne</h5></div>
+        </div>
+       </a>
+    </div>
+`;
+
+for(const ele of document.getElementsByClassName("tv-antenne")){ele.innerHTML=(antenne)};
+
+let antofagasta =
+`
+<div class="card darkolorbg text-white card-canal">
+       <a class="card-link text-white" href="go:almansa">           
+        <div class="card-body">
+            <div class="d-flex justify-content-center">
+                <img class="canal-img antofagasta" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
+            </div>
+            
+            <div class="d-flex justify-content-center"><h5>Antofagasta</h5></div>
+        </div>
+       </a>
+    </div>
+`;
+
+for(const ele of document.getElementsByClassName("tv-antofagasta")){ele.innerHTML=(antofagasta)};
+
 let azteca1 =
 `
 <div class="card darkolorbg text-white card-canal">

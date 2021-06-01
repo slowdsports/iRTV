@@ -1,3 +1,6 @@
+        *{
+            transition: all 0.3s ease-out;
+        }
         html body{
             background-color: #000;
         }
@@ -20,6 +23,9 @@
         .canal-img{
             width: 50px;
             float: center;
+        }
+        .sports{
+            margin-bottom: 5px;
         }
         .canal-feather{
             width: 100px;
@@ -53,7 +59,17 @@
         .card{
             margin-right: 5%;
             margin-bottom: 5%;
+            position: relative;
+            border-radius: 4px;
+            overflow: hidden;
+            border: 0px solid #cccccc;
         }
+        .card:hover{
+            transform: scale(1.05);
+            box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+            text-decoration: underline;
+        }
+
         .card-link{
             text-decoration: none;
         }
@@ -86,7 +102,7 @@
         .altmenu ul li
         {
             display:inline-block;
-            width:20.04%;
+            width:15.04%;
             margin-left: 0px;
         }
         .altmenu ul li a

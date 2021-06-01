@@ -8,6 +8,11 @@ let navbarIconTv = `
     <i class="blancolor" data-feather="tv"></i>
 </a>
 `;
+let navbarIconSports = `
+<a class="nav-bar-icon" href="javascript:void(0)">
+    <i class="blancolor" data-feather="chrome"></i>
+</a>
+`;
 let navbarIconRadio = `
 <a class="nav-bar-icon" href="javascript:void(0)">
     <i class="blancolor" data-feather="radio"></i>
@@ -115,6 +120,7 @@ let navbarIconSocial = `
 for(const ele of document.getElementsByClassName("navbar-logo")){ele.innerHTML=(navbarLogo)};
 for(const ele of document.getElementsByClassName("navbar-icon-movie")){ele.innerHTML=(navbarIconMovie)};
 for(const ele of document.getElementsByClassName("navbar-icon-tv")){ele.innerHTML=(navbarIconTv)};
+for(const ele of document.getElementsByClassName("navbar-icon-sports")){ele.innerHTML=(navbarIconSports)};
 for(const ele of document.getElementsByClassName("navbar-icon-radio")){ele.innerHTML=(navbarIconRadio)};
 for(const ele of document.getElementsByClassName("navbar-icon-info")){ele.innerHTML=(navbarIconInfo)};
 for(const ele of document.getElementsByClassName("navbar-filters-movie")){ele.innerHTML=(navbarFiltersMovie)};
